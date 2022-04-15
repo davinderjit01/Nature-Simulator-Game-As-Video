@@ -1,0 +1,29 @@
+{
+  "name": "com.unity.renderstreaming",
+  "displayName": "Unity Render Streaming",
+  "version": "1.2.3-preview",
+  "unity": "2019.3",
+  "description": "This is a package for using Unity Render Streaming technology. It contains two samples to use the technology.",
+  "dependencies": {
+    "com.unity.webrtc": "1.1.2-preview",
+    "com.unity.inputsystem": "1.0.0-preview.4"
+  },
+  "samples": [
+    {
+      "displayName": "HDRP",
+      "description": "HDRP Unity Render Streaming Sample",
+      "path": "Samples~/HDRP"
+    },
+    {
+      "displayName": "URP",
+      "description": "URP Unity Render Streaming Sample",
+      "path": "Samples~/URP"
+    }
+  ],
+  "repository": {
+    "footprint": "7bdbe577a12f54f7bf0860f0d475fabde93bc67f",
+    "type": "git",
+    "url": "https://github.com/Unity-Technologies/UnityRenderStreaming.git",
+    "revision": "9310f00f2a0b94d213d0f12867663add09a194ad"
+  }
+}
